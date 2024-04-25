@@ -3,10 +3,15 @@ This tool is designed to assist in the collection of domain-related information 
 
 # Features
 Subdomain Enumeration: Discover subdomains associated with a given domain.
+
 DNS Record Lookup: Retrieve various DNS records such as A, MX, TXT, DNSKEY, and more.
+
 Reverse DNS Lookup: Perform a reverse DNS lookup to find the domain name associated with an IP address.
+
 WHOIS Query: Gather domain registration details.
+
 SRV Record Enumeration: Find service records for specified services.
+
 Zone Transfer Attempt: Check for DNS zone transfer misconfigurations.
 
 # Prerequisites
@@ -31,11 +36,17 @@ Follow the on-screen prompts to enter the domain name or IP address as required.
 
 # Modules
 This tool consists of several modules, each handling different tasks:
+
 get_ip_address(domain_name): Resolves a domain name to its IP address.
+
 reverse_dns_lookup(ip_address): Finds the domain associated with a given IP address.
+
 enum_subdomains(domain): Lists all subdomains associated with the domain.
+
 enum_dns_records(domain): Fetches DNS records associated with the domain.
+
 whois_info(domain): Retrieves WHOIS information for the domain.
+
 zone_transfer(domain, nameserver): Attempts a DNS zone transfer from the specified nameserver.
 
 # Configurations
