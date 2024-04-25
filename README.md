@@ -1,7 +1,7 @@
-#Domain Enumeration Tool
+# Domain Enumeration Tool
 This tool is designed to assist in the collection of domain-related information including subdomain enumeration, DNS record retrieval, reverse DNS lookups, and WHOIS queries. It's useful for network administrators, security professionals, and anyone interested in domain and network analysis.
 
-#Features
+# Features
 Subdomain Enumeration: Discover subdomains associated with a given domain.
 DNS Record Lookup: Retrieve various DNS records such as A, MX, TXT, DNSKEY, and more.
 Reverse DNS Lookup: Perform a reverse DNS lookup to find the domain name associated with an IP address.
@@ -9,12 +9,12 @@ WHOIS Query: Gather domain registration details.
 SRV Record Enumeration: Find service records for specified services.
 Zone Transfer Attempt: Check for DNS zone transfer misconfigurations.
 
-#Prerequisites
+# Prerequisites
 Before you install and use this tool, ensure you have the following installed:
 > Python 3.6 or higher
 > Pip (Python package installer)
 
-#Installation
+# Installation
 Clone this repository or download the source code:
 > git clone https://github.com/your-username/domain-info-tool.git
 > cd domain-info-tool
