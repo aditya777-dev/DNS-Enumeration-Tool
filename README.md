@@ -12,17 +12,21 @@ Zone Transfer Attempt: Check for DNS zone transfer misconfigurations.
 # Prerequisites
 Before you install and use this tool, ensure you have the following installed:
 > Python 3.6 or higher
+> 
 > Pip (Python package installer)
 
 # Installation
 Clone this repository or download the source code:
 > git clone https://github.com/your-username/domain-info-tool.git
+> 
 > cd domain-info-tool
+
 Install required Python libraries:
 > pip install -r requirements.txt
-Usage
+
 To run the tool, execute the following command in the terminal:
 > python domain_info_tool.py
+
 Follow the on-screen prompts to enter the domain name or IP address as required. The tool will provide options to choose which types of data to retrieve.
 
 # Modules
