@@ -1,4 +1,4 @@
-# Domain Enumeration Tool
+# DNS Enumeration Tool
 This tool is designed to assist in the collection of domain-related information including subdomain enumeration, DNS record retrieval, reverse DNS lookups, and WHOIS queries. It's useful for network administrators, security professionals, and anyone interested in domain and network analysis.
 
 # Features
