@@ -49,8 +49,5 @@ whois_info(domain): Retrieves WHOIS information for the domain.
 
 zone_transfer(domain, nameserver): Attempts a DNS zone transfer from the specified nameserver.
 
-# Configurations
-You can configure the tool according to your needs by modifying the config.py file. This file includes settings such as timeout periods for requests, the choice of DNS servers, and whether to perform verbose logging.
-
 # Contributions
 Contributions are welcome. Please fork the repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
